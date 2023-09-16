@@ -24,8 +24,3 @@ function threeSumClosest(nums, target) {
   return closestSum;
 }
 
-// Example usage:
-const S = [-1, 2, 1, -4];
-const target = 1;
-const closestSum = threeSumClosest(S, target);
-console.log("The sum closest to the target is:", closestSum); // Output: 2
