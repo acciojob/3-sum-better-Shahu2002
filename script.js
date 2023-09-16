@@ -13,13 +13,7 @@ function threeSumClosest(nums, target) {
                 closestSum = sum;
             }
 
-            // Adjust pointers based on the current sum
-            if (sum < target) {
-                left++;
-            } else {
-                right--;
-            }
-        }
+        
     }
 
     return closestSum;
